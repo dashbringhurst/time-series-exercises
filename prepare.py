@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import acquire
 import requests
 
-def prep__sales_data():
+def prep_sales_data():
     '''This function takes in the saved csv file for sales data and saves it to a variable as a dataframe. The extra
     index column is dropped and the sale_date is converted to datetime format. The new sale_date is set as the index
     and sorted. A new column month is added with the month name for each observation. A day column is created with
